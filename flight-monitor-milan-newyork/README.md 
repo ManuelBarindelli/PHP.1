@@ -1,0 +1,30 @@
+# Flight Monitor - Milan to New York
+
+Questo progetto permette di monitorare i voli da Milano a New York.
+
+## Struttura del progetto
+
+- **backend/getFlights.php**: file PHP che interroga un'API per ottenere i dati sui voli.
+- **frontend/index.js**: file Node.js con Express che serve una semplice interfaccia per visualizzare i voli su una pagina web.
+- **frontend/package.json**: file di configurazione di Node.js per gestire le dipendenze.
+
+## Come avviare il progetto
+
+1. **Backend PHP**:
+   - Assicurati di avere PHP installato.
+   - Vai nella cartella `backend` ed esegui:
+     ```bash
+     php -S localhost:8080
+     ```
+
+2. **Frontend Node.js**:
+   - Vai nella cartella `frontend` e installa le dipendenze:
+     ```bash
+     npm install
+     ```
+   - Esegui il server Node.js sulla porta 3000:
+     ```bash
+     npm start
+     ```
+
+3. Apri il browser e vai su `http://localhost:3000` per visualizzare i voli.
